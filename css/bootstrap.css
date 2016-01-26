@@ -17,7 +17,10 @@ aside,
 details,
 figcaption,
 figure,
-footer,
+footer{
+  color: black;
+  text-align: center;
+  }
 header,
 hgroup,
 main,
@@ -1166,12 +1169,73 @@ hr {
   justify-content: space-between;
   margin-top: 5%;
   margin-bottom: 4%;
+  padding: 0;
 }
 .socials-mobile{
-  display: flex;
-  justify-content: space-between;
-  background-color: blue;
-
+  display: inline;
+  float: left;
+  margin-left: 20px;
+  width: 260px;
+  border: none;
+  padding-top: 6px;
+/*  border: 1px solid white;
+*/  text-align: center;
+}
+.socials-mobile a{
+  margin-left: 1px;
+  margin-right: 1px;
+  float: left;
+}
+@media screen and (min-width: 360px){
+.socials-mobile{
+  display: inline;
+  float: left;
+  margin-left: 13px;
+  width: 315px;
+  border: none;
+  padding-top: 7px;
+/*  border: 1px solid white;
+*/  text-align: center;
+}
+.socials-mobile a{
+  margin-left: 5px;
+  margin-right: 5px;
+  float: left;
+}
+}
+@media screen and (min-width: 375px){
+.socials-mobile{
+  display: inline;
+  float: left;
+  margin-left: 18px;
+  width: 325px;
+  border: none;
+  padding-top: 7px;
+/*  border: 1px solid white;
+*/  text-align: center;
+}
+.socials-mobile a{
+  margin-left: 5px;
+  margin-right: 6px;
+  float: left;
+}
+}
+@media screen and (min-width: 414px){
+.socials-mobile{
+  display: inline;
+  float: left;
+  margin-left: 17px;
+  width: 365px;
+  border: none;
+  padding-top: 7px;
+/*  border: 1px solid white;
+*/  text-align: center;
+}
+.socials-mobile a{
+  margin-left: 8px;
+  margin-right: 8px;
+  float: left;
+}
 }
 .sr-only {
   position: absolute;
@@ -1635,7 +1699,7 @@ pre code {
   margin-right: auto;
   margin-left: auto;
   width: 100%;
-  background-color: white;
+  background-color: #FF3E00;
 }
 .content{
   display: inline-block;
@@ -4223,8 +4287,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   padding-left: 15px;
   overflow-x: visible;
   -webkit-overflow-scrolling: touch;
-  border-top: 1px solid transparent;
-  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1);
+/*  border-top: 1px solid transparent;
+*/  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1);
           box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1);
 }
 .navbar-collapse.in {
@@ -4334,13 +4398,13 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   position: relative;
   float: right;
   padding: 9px 10px;
-  margin-top: 8px;
-  margin-right: 15px;
+  margin-top: 7px;
+  margin-right: 20px;
   margin-bottom: 8px;
   background-color: transparent;
   background-image: none;
-  border: 1px solid transparent;
-  border-radius: 4px;
+  border-radius: 0px;
+  border: none;
 }
 .navbar-toggle:focus {
   outline: 0;
@@ -4348,8 +4412,9 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-toggle .icon-bar {
   display: block;
   width: 22px;
-  height: 2px;
-  border-radius: 1px;
+  height: 3px;
+  border-radius: 2px;
+  background-color: blue;
 }
 .navbar-toggle .icon-bar + .icon-bar {
   margin-top: 4px;
@@ -4584,10 +4649,10 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-  background-color: #ddd;
+  background-color: transparent;
 }
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: #888;
+  background-color: black;
 }
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
@@ -6838,4 +6903,5 @@ button.close {
     display: none !important;
   }
 }
+
 /*# sourceMappingURL=bootstrap.css.map */
