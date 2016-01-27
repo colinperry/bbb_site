@@ -3241,8 +3241,8 @@ select[multiple].input-lg {
       -ms-user-select: none;
           user-select: none;
   background-image: none;
-  border: 5px solid black;
-  border-radius: 0px;
+  border: 1px solid black;
+  border-radius: 3px;
 
 }
 .btn:focus,
@@ -3284,8 +3284,6 @@ fieldset[disabled] a.btn {
 .btn-default {
   color: #333;
   background-color: #fff;
-  border-color: #203d4f;
-  margin-top: 15px;
 }
 .btn-default:focus,
 .btn-default.focus {
