@@ -4928,6 +4928,14 @@ fieldset[disabled] .navbar-inverse .btn-link:hover,
 fieldset[disabled] .navbar-inverse .btn-link:focus {
   color: #444;
 }
+.main-content{
+  font-family: 'Cabin', sans-serif;
+  text-align: center;
+}
+.content-category{
+  font-family: 'Cabin', sans-serif;
+  text-align: center;
+}
 .breadcrumb {
   padding: 8px 15px;
   margin-bottom: 20px;
