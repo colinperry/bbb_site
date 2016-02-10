@@ -1839,7 +1839,7 @@ pre code {
   margin-right: auto;
   margin-left: auto;
   width: 100%;
-  background-color: #FF3E00;
+  background-color: #FF4614;
 }
 .content{
   display: inline-block;
@@ -1848,6 +1848,9 @@ pre code {
   margin-top: 50px;
   margin-left: 150px;
   border: 1px solid black;
+}
+#bandsintown-widget{
+  font-size: 2em;
 }
 
 .col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
@@ -5029,6 +5032,37 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 .content-category{
   font-family: 'Fjalla One', sans-serif;
   text-align: center;
+  color: white;
+}
+
+/*.content-category a{
+  font-size: 1.5em;
+  color: white;
+  background-color: white;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 15px;
+  padding-left: 15px;
+  border-radius: 3px;
+  text-decoration: none;
+  font-family: 'Fjalla One', sans-serif;
+}
+.content-category a:hover{
+  background-color: red;
+}*/
+.bit-header{
+  display: none;
+}
+.bit-rsvp{
+  display: none;
+}
+.bit-description-links{
+  display: none;
+  color: blue;
+}
+.content-category h1{
+  margin-top: 30px;
+  margin-bottom: 15px;
 }
 .content-category .dropdown{
   display: inline-block;
@@ -5040,21 +5074,32 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   background-color: black;
   font-size: 1.5em;
   width: 130px;
-  border-radius: 0px;
+  border-radius: 3px;
+  margin-top: 10px;
+  font-size: 1.5em;
+}
+.album-cover-mobile{
+  margin-right: 10px;
+  margin-left: 10px;
+  border: 5px solid black;
 }
 .button-more{
   margin-top: 20px;
+  margin-bottom: 40px;
   font-size: 1.5em;
 }
 .button-more a{
-  font-family: 'Cabin', sans-serif;
+  font-family: 'Fjalla One', sans-serif;
   text-align: center;
   text-decoration: none;
   color: red;
   background-color: black;
   padding: 15px;
   border-radius: 3px;
-  
+}
+.button-more a:hover{
+  /*color: black;*/
+  background-color: white;
 }
 .breadcrumb {
   padding: 8px 15px;
