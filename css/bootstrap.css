@@ -1149,7 +1149,7 @@ img {
           transition: all .2s ease-in-out;
 }
 .img-thumbnail:hover{
-  background-color: white;
+  background-color: #dadedf;
   border-radius: 1px solid white;
   -webkit-transition: all .2s ease-in-out;
        -o-transition: all .2s ease-in-out;
@@ -1809,6 +1809,19 @@ pre code {
   max-height: 340px;
   overflow-y: scroll;
 }
+.header{
+  background-color: #dadedf;
+}
+.background-img{
+  background: url(img/bbb-bg.jpg);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
 .container {
   padding-right: 0px;
   padding-left: 0px;
@@ -1839,7 +1852,7 @@ pre code {
   margin-right: auto;
   margin-left: auto;
   width: 100%;
-  background-color: #FF4614;
+/*  background-color: #FF4614;*/
 }
 .content{
   display: inline-block;
@@ -4577,7 +4590,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   padding-top: 10px;
   padding-bottom: 10px;
   line-height: 20px;
-  color: black;
+/*  color: black;*/
 }
 .navbar-nav > li > a:hover{
   color: black;
@@ -4820,7 +4833,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-default {
-  background-color: black;
+  background-color: #dadedf;
   border-color: white;
 }
 .navbar-default .navbar-brand {
@@ -5032,7 +5045,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 .content-category{
   font-family: 'Fjalla One', sans-serif;
   text-align: center;
-  color: white;
+  color: #dadedf;
 }
 
 /*.content-category a{
@@ -5092,14 +5105,14 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   font-family: 'Fjalla One', sans-serif;
   text-align: center;
   text-decoration: none;
-  color: red;
+  color: #ff4614;
   background-color: black;
   padding: 15px;
   border-radius: 3px;
 }
 .button-more a:hover{
   /*color: black;*/
-  background-color: white;
+  background-color: #dadedf;
 }
 .breadcrumb {
   padding: 8px 15px;
