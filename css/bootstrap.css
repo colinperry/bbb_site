@@ -1812,15 +1812,11 @@ pre code {
 .header{
   background-color: #dadedf;
 }
-.background-img{
-  background: url(img/bbb-bg.jpg);
-  position: fixed;
-  top: 0;
+.background-image{
+  background: url(../img/bbb-bg.jpg);
+  z-index: 0;
   width: 100%;
-  height: 100%;
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
+  height: 1000px;
 }
 .container {
   padding-right: 0px;
