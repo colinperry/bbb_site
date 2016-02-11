@@ -18,7 +18,8 @@ details,
 figcaption,
 figure,
 footer{
-  color: black;
+  background-color: black;
+  color: #142c36;
   text-align: center;
   }
 header,
@@ -5063,6 +5064,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 .content-category h1{
   margin-top: 30px;
   margin-bottom: 15px;
+  color: white;
 }
 .content-category .dropdown{
   display: inline-block;
@@ -5079,13 +5081,12 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   font-size: 1.5em;
 }
 .album-cover-mobile{
-  margin-right: 10px;
-  margin-left: 10px;
-  border: 5px solid black;
-  max-width: 800px;
+  margin: auto;
+  border: 5px solid #142c36;
+  max-width: 600px;
 }
 .button-more{
-  margin-top: 20px;
+  margin-top: 30px;
   margin-bottom: 40px;
   font-size: 1.5em;
 }
@@ -5093,14 +5094,13 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   font-family: 'Fjalla One', sans-serif;
   text-align: center;
   text-decoration: none;
-  color: #ff4614;
-  background-color: black;
+  color: #dadedf;
+  background-color: #d61111;
   padding: 15px;
   border-radius: 3px;
 }
 .button-more a:hover{
-  /*color: black;*/
-  background-color: #dadedf;
+  background-color: #142c36;
 }
 .breadcrumb {
   padding: 8px 15px;
