@@ -4226,6 +4226,16 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   z-index: 2;
   margin-left: -1px;
 }
+@media (min-width: 768px){
+  .socials{
+    margin-top: 12px;
+  }
+}
+@media (min-width: 1024px){
+  .socials{
+    margin-top: 15px;
+  }
+}
 .nav {
   padding-left: 0;
   margin-bottom: 0;
@@ -5040,22 +5050,6 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   text-align: center;
   color: #dadedf;
 }
-
-/*.content-category a{
-  font-size: 1.5em;
-  color: white;
-  background-color: white;
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-right: 15px;
-  padding-left: 15px;
-  border-radius: 3px;
-  text-decoration: none;
-  font-family: 'Fjalla One', sans-serif;
-}
-.content-category a:hover{
-  background-color: red;
-}*/
 .bit-header{
   display: none;
 }
