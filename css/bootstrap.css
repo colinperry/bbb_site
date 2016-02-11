@@ -1149,7 +1149,7 @@ img {
           transition: all .2s ease-in-out;
 }
 .img-thumbnail:hover{
-  background-color: #dadedf;
+  background-color: #d61111;
   border-radius: 1px solid white;
   -webkit-transition: all .2s ease-in-out;
        -o-transition: all .2s ease-in-out;
@@ -4610,6 +4610,24 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     background-image: none;
   }
 }
+@media (min-width: 320px) {
+  .navbar-nav {
+    float: left;
+    margin: 0;
+    list-style-type: none;
+    text-align: center;
+    width: 100%;
+/*    border: 1px solid white;
+*/  }
+  .navbar-nav > li {
+    display: block;
+    font-size: 1.5em;
+  }
+  .navbar-nav > li > a {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}
 @media (min-width: 768px) {
   .navbar-nav {
     float: left;
@@ -4624,10 +4642,6 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     margin-left: 1%;
     margin-right: 1%;
     font-size: 1.5em;
-  }
-  .navbar-nav > li > a {
-    padding-top: 15px;
-    padding-bottom: 15px;
   }
 }
 @media (min-width: 950px) {
@@ -4646,10 +4660,6 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     font-size: 2em;
     
   }
-  .navbar-nav > li > a {
-    padding-top: 20px;
-    padding-bottom: 20px;
-  }
 }
 @media (min-width: 1150px) {
   .navbar-nav {
@@ -4666,10 +4676,6 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     margin-right: 1.5%;
     font-size: 2.5em;
   }
-  .navbar-nav > li > a {
-    padding-top: 25px;
-    padding-bottom: 25px;
-  }
 }
 @media (min-width: 1300px) {
   .navbar-nav {
@@ -4685,10 +4691,6 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     margin-left: 2%;
     margin-right: 2%;
     font-size: 2.25em;
-  }
-  .navbar-nav > li > a {
-    padding-top: 30px;
-    padding-bottom: 30px;
   }
 }
 .navbar-form {
@@ -4777,7 +4779,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-nav > li > .dropdown-menu {
-  margin-top: 0;
+  margin-top: 20px;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
@@ -4874,7 +4876,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   background-color: transparent;
 }
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: black;
+  background-color: #dadedf;
 }
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
