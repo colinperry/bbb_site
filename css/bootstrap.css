@@ -5082,6 +5082,30 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   padding-bottom: 10px;
   font-size: 1.5em;
 }
+/*@media screen and (min-width: 320px){
+  .ig-md{
+    visibility: hidden;
+  }
+  .ig-lg{
+    visibility: hidden;
+  }
+}
+@media screen and (min-width: 768px){
+  .ig-sm{
+    visibility: hidden;
+  }
+  .ig-lg{
+    visibility: hidden;
+  }
+}
+@media screen and (min-width: 1024px){
+  .ig-sm{
+    visibility: hidden;
+  }
+  .ig-md{
+    visibility: hidden;
+  }
+}*/
 .bandsintown-widget{
 }
 .email-signup{
