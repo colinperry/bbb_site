@@ -5082,28 +5082,58 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   padding-bottom: 10px;
   font-size: 1.5em;
 }
-/*@media screen and (min-width: 320px){
+@media screen and (min-width: 320px){
   .ig-md{
     visibility: hidden;
+    clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
   }
   .ig-lg{
     visibility: hidden;
+    clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
   }
 }
-@media screen and (min-width: 768px){
+/*@media screen and (min-width: 768px){
   .ig-sm{
     visibility: hidden;
+    clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
   }
   .ig-lg{
     visibility: hidden;
+    clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
   }
 }
 @media screen and (min-width: 1024px){
   .ig-sm{
     visibility: hidden;
+    clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
   }
   .ig-md{
     visibility: hidden;
+    clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
   }
 }*/
 .bandsintown-widget{
