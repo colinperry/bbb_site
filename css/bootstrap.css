@@ -5082,6 +5082,21 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   padding-bottom: 10px;
   font-size: 1.5em;
 }
+@media screen and (max-width: 414px){
+  .content-category .dropdown button{
+  border: none;
+  color: #d61111;
+  background-color: #dadedf;
+  width: 100px;
+  border-radius: 3px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 1.25em;
+}
+}
 .ig-sm .ig_feed{
   max-width: 500px;
   margin-left: auto;
