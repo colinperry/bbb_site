@@ -5082,7 +5082,12 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   padding-bottom: 10px;
   font-size: 1.5em;
 }
-@media screen and (min-width: 320px){
+.ig-sm .ig_feed{
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (min-width: 0px) and (max-width: 767px){
   .ig-md{
     visibility: hidden;
     clear: both;
@@ -5100,7 +5105,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
     display: none;
   }
 }
-/*@media screen and (min-width: 768px){
+@media screen and (min-width: 768px) and (max-width: 1024px){
   .ig-sm{
     visibility: hidden;
     clear: both;
@@ -5118,7 +5123,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
     display: none;
   }
 }
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 1025px){
   .ig-sm{
     visibility: hidden;
     clear: both;
@@ -5135,7 +5140,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
     width: 28%;
     display: none;
   }
-}*/
+}
 .bandsintown-widget{
 }
 .email-signup{
