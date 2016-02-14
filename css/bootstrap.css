@@ -5104,6 +5104,22 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
     width: 28%;
     display: none;
   }
+  .vid-md{
+    visibility: hidden;
+    clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
+  }
+  .vid-lg{
+    visibility: hidden;
+    clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
+  }
 }
 @media screen and (min-width: 768px) and (max-width: 1024px){
   .ig-sm{
@@ -5122,6 +5138,22 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
     width: 28%;
     display: none;
   }
+  .vid-sm{
+    visibility: hidden;
+    clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
+  }
+  .vid-lg{
+    visibility: hidden;
+    clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
+  }
 }
 @media screen and (min-width: 1025px){
   .ig-sm{
@@ -5133,6 +5165,22 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
     display: none;
   }
   .ig-md{
+    visibility: hidden;
+    clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
+  }
+  .vid-sm{
+    visibility: hidden;
+    clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
+  }
+  .vid-md{
     visibility: hidden;
     clear: both;
     float: left;
