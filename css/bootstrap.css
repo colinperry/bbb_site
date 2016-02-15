@@ -5082,6 +5082,11 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   padding-bottom: 10px;
   font-size: 1.5em;
 }
+.content-category .dropdown button:hover{
+  border: none;
+  color: #dadedf;
+  background-color: #d61111;
+}
 @media screen and (max-width: 414px){
   .content-category .dropdown button{
   border: none;
