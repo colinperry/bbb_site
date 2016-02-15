@@ -5327,6 +5327,69 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   background-color: #dadedf;
 }
 }
+  .email-signup-sidebar{
+  background-color: #142c36;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  width: 300px;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+}
+.email-signup-sidebar h1{
+  font-size: 1.75em;
+}
+#mce-FNAME-sidebar{
+  border: 2px solid #142c36;
+  height: 50px;
+  width: 200px;
+  color: black;
+  display: inline;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  text-align: center;
+  border: 1px solid black;
+}
+#mce-EMAIL-sidebar{
+  border: 2px solid #142c36;
+  height: 50px;
+  width: 200px;
+  color: black;
+  display: inline;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  text-align: center;
+  border: 1px solid black;
+}
+#mce-MMERGE2-sidebar{
+  border: 2px solid #142c36;
+  height: 50px;
+  width: 200px;
+  color: black;
+  display: inline;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  text-align: center;
+  border: 1px solid black;
+}
+#mc-embedded-subscribe-sidebar{
+  height: 50px;
+  width: 130px;
+  color: #dadedf;
+  border-radius: 5px;
+  font-size: 1.5em;
+  background-color: #d61111;
+  border: none;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+#mc-embedded-subscribe-sidebar:hover{
+  color: #d61111;
+  font-size: 1.5em;
+  background-color: #dadedf;
+}
+
 .album-cover-mobile{
   margin: auto;
   max-width: 600px;
@@ -5351,6 +5414,16 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 .button-more a:hover{
   color: #d61111;
   background-color: #dadedf;
+}
+@media screen and (min-width: 320px) and (max-width: 999px){
+  .content-area-lg{
+    display: none;
+  }
+}
+@media screen and (min-width: 1000px){
+  .content-area-sm{
+    display: none;
+  }
 }
 .breadcrumb {
   padding: 8px 15px;
