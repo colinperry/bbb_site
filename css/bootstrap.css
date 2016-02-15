@@ -3763,6 +3763,7 @@ tbody.collapse.in {
 .dropup,
 .dropdown {
   position: relative;
+  width: 225px;
 }
 .dropdown-toggle:focus {
   outline: 0;
@@ -3770,7 +3771,7 @@ tbody.collapse.in {
 .dropdown-menu {
   position: absolute;
   top: 100%;
-  left: 0;
+  left: 90;
   z-index: 1000;
   display: none;
   width: 100%;
@@ -3783,6 +3784,8 @@ tbody.collapse.in {
   list-style: none;
   background-color: #dadedf;
   border-radius: 3px;
+  margin-left: auto;
+  margin-right: auto;
   -webkit-background-clip: padding-box;
           background-clip: padding-box;
   -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
