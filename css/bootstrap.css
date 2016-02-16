@@ -5459,6 +5459,15 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   margin-right: auto;
   margin-bottom: 25px;
 }
+@media screen and (min-width: 320px) and (max-width: 736px){
+  #dropdownMenu1{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    display: inline;
+  }
+}
 .breadcrumb {
   padding: 8px 15px;
   margin-bottom: 20px;
