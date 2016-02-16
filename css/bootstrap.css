@@ -5457,6 +5457,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 .video-content{
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 25px;
 }
 .breadcrumb {
   padding: 8px 15px;
