@@ -5484,9 +5484,14 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
     display: none;
   }
 }
-.music-content-area-lg{
-/*  border: 1px solid white;
-*/}
+.about-content-area-sm p{
+  font-size: 1.5em;
+  color: white;
+}
+.about-content-area-lg p{
+  font-size: 1.5em;
+  color: white;
+}
 .breadcrumb {
   padding: 8px 15px;
   margin-bottom: 20px;
