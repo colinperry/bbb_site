@@ -5472,9 +5472,15 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   .music-content-area-lg{
     display: none;
   }
+  .about-content-area-lg{
+    display: none;
+  }
 }
 @media screen and (min-width: 1024px){
   .music-content-area-sm{
+    display: none;
+  }
+  .about-content-area-sm{
     display: none;
   }
 }
