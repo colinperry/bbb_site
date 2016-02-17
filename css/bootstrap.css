@@ -5475,12 +5475,18 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   .about-content-area-lg{
     display: none;
   }
+  .contact-content-area-lg{
+    display: none;
+  }
 }
 @media screen and (min-width: 1024px){
   .music-content-area-sm{
     display: none;
   }
   .about-content-area-sm{
+    display: none;
+  }
+  .contact-content-area-sm{
     display: none;
   }
 }
@@ -5492,6 +5498,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   font-size: 1.5em;
   color: white;
 }
+
 .breadcrumb {
   padding: 8px 15px;
   margin-bottom: 20px;
