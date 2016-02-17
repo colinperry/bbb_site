@@ -5498,7 +5498,20 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   font-size: 1.5em;
   color: white;
 }
-
+.contact-content-area-sm h2{
+  color: white;
+}
+.contact-content-area-lg h2{
+  color: white;
+}
+.contact-content-area-sm p{
+  color: white;
+  font-size: 1.5em;
+}
+.contact-content-area-lg p{
+  color: white;
+  font-size: 1.5em;
+}
 .breadcrumb {
   padding: 8px 15px;
   margin-bottom: 20px;
