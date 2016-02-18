@@ -1357,6 +1357,16 @@ hr {
   float: left;
 }
 }
+@media only screen and (min-width: 300px) and (max-width: 767px){
+  .socials{
+    display: none;
+    visibility: hidden;
+  }
+  .img-thumbnail-top{
+    display: none;
+    visibility: none;
+  }
+}
 .sr-only {
   position: absolute;
   width: 1px;
@@ -7630,16 +7640,6 @@ button.close {
 @media print {
   .hidden-print {
     display: none !important;
-  }
-}
-@media only screen and (min-width: 300px) and (max-width: 767px){
-  .socials{
-    display: none;
-    visibility: hidden;
-  }
-  .img-thumbnail-top{
-    display: none;
-    visibility: none;
   }
 }
 
