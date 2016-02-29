@@ -5490,6 +5490,9 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   .contact-content-area-lg{
     display: none;
   }
+  .assets-content-area-lg{
+    display: none;
+  }
 }
 @media screen and (min-width: 1024px){
   .music-content-area-sm{
@@ -5499,6 +5502,9 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
     display: none;
   }
   .contact-content-area-sm{
+    display: none;
+  }
+  .assets-content-area-sm{
     display: none;
   }
 }
